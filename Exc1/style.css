@@ -1,0 +1,51 @@
+/* this defines the helper grid */
+.gridlines {
+  /* change these as you need */
+  --grid-size:50px;
+  --grid-color:pink;
+}
+
+/* anything else you want to do 👇🏻 */
+
+h1 {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  letter-spacing: -2px;
+  line-height: 0.9;
+  padding-left:8px;
+  margin-top:10px;
+}
+
+h2 {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size:18px;
+  padding-left:8px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size:12px;
+  padding-left:8px;
+  line-height: 1.2;
+  margin-top:-10px;
+}
+
+h3 {
+  font-family: Times, sans-serif;
+  Weight:100;
+  padding-left:8px;
+  line-height: 1.2;
+  font-size:12px;
+  
+}
+
+h4 {
+  ont-family: Helvetica, Arial, sans-serif;
+  
+  padding-left:8px;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+}
