@@ -43,8 +43,10 @@ for (let counter = 0; counter < player.length; counter++){
 	player[counter].addEventListener('click',function(){
 
 		if(joe.paused){
+			player[counter].classList.add('beenClicked')
 			joe.play()
 		} else {
+			player[counter].classList.remove('beenClicked')
 			joe.pause()
 		}
 		joe.setAttribute('loop',true)
@@ -60,8 +62,10 @@ for (let counter = 0; counter < player2.length; counter++){
 	player2[counter].addEventListener('click',function(){
 
 		if(joe2.paused){
+			player2[counter].classList.add('beenClicked')
 			joe2.play()
 		} else {
+			player2[counter].classList.remove('beenClicked')
 			joe2.pause()
 		}
 		joe2.setAttribute('loop',true)
@@ -79,8 +83,10 @@ for (let counter = 0; counter < player3.length; counter++){
 	player3[counter].addEventListener('click',function(){
 
 		if(joe3.paused){
+			player3[counter].classList.add('beenClicked')
 			joe3.play()
 		} else {
+			player3[counter].classList.remove('beenClicked')
 			joe3.pause()
 		}
 		joe3.setAttribute('loop',true)
@@ -96,8 +102,10 @@ for (let counter = 0; counter < player4.length; counter++){
 	player4[counter].addEventListener('click',function(){
 
 		if(joe4.paused){
+			player4[counter].classList.add('beenClicked')
 			joe4.play()
 		} else {
+			player4[counter].classList.remove('beenClicked')
 			joe4.pause()
 		}
 		joe4.setAttribute('loop',true)
@@ -113,8 +121,10 @@ for (let counter = 0; counter < player5.length; counter++){
 	player5[counter].addEventListener('click',function(){
 
 		if(joe5.paused){
+			player5[counter].classList.add('beenClicked')
 			joe5.play()
 		} else {
+			player5[counter].classList.remove('beenClicked')
 			joe5.pause()
 		}
 		joe5.setAttribute('loop',true)
@@ -130,8 +140,10 @@ for (let counter = 0; counter < player6.length; counter++){
 	player6[counter].addEventListener('click',function(){
 
 		if(joe6.paused){
+			player6[counter].classList.add('beenClicked')
 			joe6.play()
 		} else {
+			player6[counter].classList.remove('beenClicked')
 			joe6.pause()
 		}
 		joe6.setAttribute('loop',true)
@@ -147,8 +159,10 @@ for (let counter = 0; counter < player7.length; counter++){
 	player7[counter].addEventListener('click',function(){
 
 		if(joe7.paused){
+			player7[counter].classList.add('beenClicked')
 			joe7.play()
 		} else {
+			player7[counter].classList.remove('beenClicked')
 			joe7.pause()
 		}
 		joe7.setAttribute('loop',true)
@@ -164,8 +178,10 @@ for (let counter = 0; counter < player8.length; counter++){
 	player8[counter].addEventListener('click',function(){
 
 		if(joe8.paused){
+			player8[counter].classList.add('beenClicked')
 			joe8.play()
 		} else {
+			player8[counter].classList.remove('beenClicked')
 			joe8.pause()
 		}
 		joe8.setAttribute('loop',true)
@@ -181,8 +197,10 @@ for (let counter = 0; counter < playerall.length; counter++){
 	playerall[counter].addEventListener('click',function(){
 
 		if(joe9.paused){
+			playerall[counter].classList.add('beenClicked')
 			joe9.play()
 		} else {
+			playerall[counter].classList.remove('beenClicked')
 			joe9.pause()
 		}
 		joe9.setAttribute('loop',true)

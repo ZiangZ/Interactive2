@@ -341,7 +341,7 @@ body {
           transition: 0.1S;
 }
 
-#element-3:hover {
+#element-3:hover, #element-3.beenClicked {
   background: #FFE200;
   background-image:url(pause.svg);
   background-size: cover;
