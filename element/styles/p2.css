@@ -343,6 +343,7 @@ body {
 
 #element-3:hover, #element-3.beenClicked {
   background: #FFE200;
+  text-align: center;
   background-image:url(pause.svg);
   background-size: cover;
   background-repeat: no-repeat;

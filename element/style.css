@@ -1,0 +1,55 @@
+body {
+	background: black;	
+	color: white;
+	font-family: hevatica;
+
+	display: grid;
+	align-items: center;
+  justify-items: center;
+  font-size:100px;
+  min-height: 100vh;
+}
+
+
+#clock {
+	border: 10px solid white;
+	width: 500px;
+	height: 500px;
+  background:black;
+	display: grid;
+	align-items: center;
+  justify-content: center;
+  position:relative;
+  border-radius:500px;
+}
+
+.aFiveMinute {
+	background: white;
+}
+
+#secondHand {
+  position:absolute;
+  top:150px;
+  left:240px;
+  width:10px;
+  height:100px;
+  background:white;
+  border-radius:50px;
+  
+  
+  /* spin the second hand from the middle of the clock */
+  transform-origin:50% 100%;
+}
+
+.text {
+  font-family:gill-sans;
+  font-size:30px;
+  animation:show; 1s, forwards;
+}
+
+@keyframes show {
+  50% {content:"4.3 babies are born"
+
+  100% { display: none;}
+}
+

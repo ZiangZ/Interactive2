@@ -1,0 +1,126 @@
+
+
+
+
+typelist {
+font-family: 'Noto Serif SC', serif;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Cabin', sans-serif;
+}
+
+body {
+  margin: 0px;
+  margin-left:30px;
+  padding: 0px;
+  perspective: 4px;
+  perspective-origin: 50vw 50vh;
+
+}
+
+.black {
+  height:200vh;
+  width: 100vw;
+  background: black;
+}
+
+
+.eng {
+  position: absolute;
+  left:100px;
+  top:50px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 50px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 150px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.ch {
+  left:350px;
+  top:150px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 180px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+
+.backpic {
+  position: absolute;
+  left:150px;
+  right:250px;
+  top:250px;
+  height: 650px;
+  width:450px;
+  background-image:url(pic/paint1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    transform: translateZ(0.005px) scale(0.5);
+}
+
+.bodytextch {
+  left:350px;
+  top:200px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: bold;
+  color: white;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+.bodytexteng {
+  position: absolute;
+  left:100px;
+  top:100px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 15px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.back {
+  position: absolute;
+  left:900px;
+  bottom:400px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.back2 {
+  left:800px;
+  bottom:600px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+
