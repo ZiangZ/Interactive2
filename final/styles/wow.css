@@ -37,7 +37,7 @@ body {
 }
 
 .ch {
-  left:500px;
+  left:400px;
   top:50px;
   position: absolute;
 font-family: 'Noto Serif SC', serif;
@@ -65,7 +65,7 @@ font-family: 'Noto Serif SC', serif;
 
 .ex {
   position: absolute;
-  left:1000px;
+  left:800px;
   top:600px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -79,8 +79,8 @@ font-family: 'Noto Serif SC', serif;
 
 .ex2 {
   position: absolute;
-  left:1000px;
-  top:480px;
+  left:800px;
+  top:580px;
   font-family: 'PT Serif', serif;
   font-style: italic;
   color: white;
@@ -93,7 +93,7 @@ font-family: 'Noto Serif SC', serif;
 
 .works {
   position: absolute;
-  left:1200px;
+  left:900px;
   top:400px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -107,7 +107,7 @@ font-family: 'Noto Serif SC', serif;
 
 .works2 {
   position: absolute;
-  left:1100px;
+  left:900px;
   top:350px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -121,7 +121,7 @@ font-family: 'Noto Serif SC', serif;
 
 .artist {
   position: absolute;
-  left:800px;
+  left:700px;
   top:500px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -135,7 +135,7 @@ font-family: 'Noto Serif SC', serif;
 
 .artist2 {
   position: absolute;
-  left:800px;
+  left:700px;
   top:400px;
   font-family: 'PT Serif', serif;
   font-style: italic;
