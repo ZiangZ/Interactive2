@@ -1,0 +1,173 @@
+
+
+
+
+typelist {
+font-family: 'Noto Serif SC', serif;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Cabin', sans-serif;
+}
+
+body {
+  margin: 0px;
+  margin-left:30px;
+  padding: 0px;
+  perspective: 4px;
+  perspective-origin: 50vw 50vh;
+   height:250vh;
+  width: 100vw;
+  background: black;
+
+}
+
+
+
+
+.eng {
+  position: absolute;
+  left:200px;
+  top:50px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 50px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 150px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.ch {
+  left:350px;
+  top:150px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 180px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+
+
+
+.gu1 {
+  position: absolute;
+  left:0px;
+  right:px;
+  top:5px;
+  height: 900px;
+  width:1200px;
+  background-image:url(pic/gu1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    transform: translateZ(1.5px) scale(0.4);
+}
+
+.gu2 {
+  position: absolute;
+  left:200px;
+  right:0px;
+  top:500px;
+  height: 650px;
+  width:1200px;
+  background-image:url(pic/gu2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    transform: translateZ(0.8px) scale(0.6);
+}
+
+.gu3 {
+  position: absolute;
+  left:200px;
+  right:0px;
+  top:1100px;
+  height: 450px;
+  width:900px;
+  background-image:url(pic/gu3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    transform: translateZ(0.4px) scale(0.8);
+}
+
+.backpicliu {
+  position: absolute;
+  left:800px;
+  right:300px;
+  top:600px;
+  height: 650px;
+  width:450px;
+  background-image:url(pic/liu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    transform: translateZ(0.001px) scale(0.5);
+}
+
+.back {
+  position: absolute;
+  left:400px;
+  bottom:300px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.back2 {
+  left:600px;
+  bottom:600px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+
+p {
+  position: absolute;
+  left:0px;
+  top:0px;
+  width: 1000px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: red;
+  font-size: 60px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 70px;
+  transform: translateZ(0.3px) scale(0.7);
+  opacity: 1;
+}
+
+.p1 {
+  position: absolute;
+  left:800px;
+  top:50px;
+  width: 500px;
+  font-family: 'Noto Serif SC', serif;
+  font-style: regular;
+  color: white;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 5px;
+  line-height: 50px;
+  transform: translateZ(1px) scale(0.7);
+  opacity: 1;
+}
+
+
+
+

@@ -15,19 +15,16 @@ body {
   padding: 0px;
   perspective: 4px;
   perspective-origin: 50vw 50vh;
-
-}
-
-.black {
-  height:200vh;
+   height:100vh;
   width: 100vw;
   background: black;
+
 }
 
 
 .eng {
   position: absolute;
-  left:100px;
+  left:200px;
   top:50px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -40,7 +37,7 @@ body {
 }
 
 .ch {
-  left:350px;
+  left:500px;
   top:50px;
   position: absolute;
 font-family: 'Noto Serif SC', serif;
@@ -68,7 +65,7 @@ font-family: 'Noto Serif SC', serif;
 
 .ex {
   position: absolute;
-  left:800px;
+  left:1000px;
   top:600px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -82,8 +79,8 @@ font-family: 'Noto Serif SC', serif;
 
 .ex2 {
   position: absolute;
-  left:800px;
-  top:580px;
+  left:1000px;
+  top:480px;
   font-family: 'PT Serif', serif;
   font-style: italic;
   color: white;
@@ -96,7 +93,7 @@ font-family: 'Noto Serif SC', serif;
 
 .works {
   position: absolute;
-  left:900px;
+  left:1200px;
   top:400px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -110,7 +107,7 @@ font-family: 'Noto Serif SC', serif;
 
 .works2 {
   position: absolute;
-  left:900px;
+  left:1100px;
   top:350px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -124,7 +121,7 @@ font-family: 'Noto Serif SC', serif;
 
 .artist {
   position: absolute;
-  left:700px;
+  left:800px;
   top:500px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -138,7 +135,7 @@ font-family: 'Noto Serif SC', serif;
 
 .artist2 {
   position: absolute;
-  left:700px;
+  left:800px;
   top:400px;
   font-family: 'PT Serif', serif;
   font-style: italic;

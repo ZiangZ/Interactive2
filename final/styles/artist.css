@@ -15,19 +15,16 @@ body {
   padding: 0px;
   perspective: 4px;
   perspective-origin: 50vw 50vh;
-
-}
-
-.black {
-  height:200vh;
+   height:180vh;
   width: 100vw;
   background: black;
+
 }
 
 
 .eng {
   position: absolute;
-  left:100px;
+  left:200px;
   top:50px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -54,17 +51,160 @@ font-family: 'Noto Serif SC', serif;
 }
 
 
-.backpic {
+
+
+
+.ai1 {
+  left:500px;
+  top:350px;
   position: absolute;
-  left:150px;
-  right:250px;
-  top:250px;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 180px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+.gu1 {
+  left:800px;
+  top:300px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 180px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+.liu1 {
+  left:800px;
+  top:500px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 50px;
+  line-height: 180px;
+  transform: translateZ(2px) scale(0.5);
+}
+
+
+.ai2 {
+  position: absolute;
+  left:500px;
+  top:450px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 20px;
+  line-height: 150px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.liu2 {
+  position: absolute;
+  left:800px;
+  top:600px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 20px;
+  line-height: 150px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.gu2 {
+  position: absolute;
+  left:700px;
+  top:360px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 40px;
+  display: block;
+  letter-spacing: 20px;
+  line-height: 150px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.backpicai {
+  position: absolute;
+  left:400px;
+  right:300px;
+  top:400px;
   height: 650px;
   width:450px;
-  background-image:url(pic/paint1.jpg);
+  background-image:url(pic/ai.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-    transform: translateZ(0.005px) scale(0.5);
+    transform: translateZ(0.001px) scale(0.5);
+}
+
+.backpicgu {
+  position: absolute;
+  left:700px;
+  right:300px;
+  top:200px;
+  height: 650px;
+  width:450px;
+  background-image:url(pic/gu.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    transform: translateZ(0.001px) scale(0.5);
+}
+
+.backpicliu {
+  position: absolute;
+  left:800px;
+  right:300px;
+  top:600px;
+  height: 650px;
+  width:450px;
+  background-image:url(pic/liu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    transform: translateZ(0.001px) scale(0.5);
+}
+
+
+.back {
+  position: absolute;
+  left:600px;
+  bottom:300px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: yellow;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(1px) scale(0.75);
+}
+
+.back2 {
+  left:600px;
+  bottom:500px;
+  position: absolute;
+font-family: 'Noto Serif SC', serif;
+  font-style: light;
+  color: white;
+  font-size: 20px;
+  display: block;
+  letter-spacing: 10px;
+  line-height: 30px;
+  transform: translateZ(2px) scale(0.5);
 }
 
 

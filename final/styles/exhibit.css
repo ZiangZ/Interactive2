@@ -15,19 +15,16 @@ body {
   padding: 0px;
   perspective: 4px;
   perspective-origin: 50vw 50vh;
-
-}
-
-.black {
-  height:200vh;
+   height:200vh;
   width: 100vw;
   background: black;
+
 }
 
 
 .eng {
   position: absolute;
-  left:100px;
+  left:400px;
   top:50px;
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -40,8 +37,9 @@ body {
 }
 
 .ch {
-  left:350px;
+  left:500px;
   top:150px;
+  width:500px;
   position: absolute;
 font-family: 'Noto Serif SC', serif;
   font-style: light;
@@ -68,13 +66,14 @@ font-family: 'Noto Serif SC', serif;
 }
 
 .bodytextch {
-  left:350px;
+  left:650px;
   top:200px;
+  width:500px;
   position: absolute;
 font-family: 'Noto Serif SC', serif;
   font-style: bold;
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   display: block;
   letter-spacing: 10px;
   line-height: 30px;

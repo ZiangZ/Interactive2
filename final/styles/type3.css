@@ -1,0 +1,75 @@
+
+
+
+
+typelist {
+font-family: 'Noto Serif SC', serif;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Cabin', sans-serif;
+}
+
+body {
+  background-color: #E6E6BA;
+  background-image: url(12.png);
+  background-size: cover;
+  margin: 0px;
+  margin-left:30px;
+  padding: 0px;
+  perspective: 4px;
+  perspective-origin: 50vw 60vh;
+
+
+}
+
+.set {
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  right:200px;
+  width:600px;
+  height:100px;
+  font-family: mono; sans-serif;
+  font-size: 30px;
+opacity: 0;
+background-color: blue;
+}
+
+.set2 {
+  position: absolute;
+  text-align: center;
+  top: 350px;
+  right:200px;
+  width:600px;
+  height:100px;
+  font-family: mono; sans-serif;
+  font-size: 30px;
+opacity: 0;
+background-color: blue;
+}
+
+.set3 {
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  right:200px;
+  width:600px;
+  height:100px;
+  font-family: mono; sans-serif;
+  font-size: 30px;
+opacity: 0;
+background-color: blue;
+}
+
+.set4 {
+  position: absolute;
+  text-align: center;
+  top: 700px;
+  right:200px;
+  width:600px;
+  height:100px;
+  font-family: mono; sans-serif;
+  font-size: 30px;
+opacity: 0;
+background-color: blue;
+}
