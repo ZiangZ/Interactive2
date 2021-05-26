@@ -21,13 +21,13 @@ body {
 }
 
 h1 {
-	color:red;
+	color:blue;
 }
 
 h1, h2, h3 {
 	margin: 20px 0;
     font-size:20pt;
-} 
+}
 
 p {
 	margin: 20px 0;
